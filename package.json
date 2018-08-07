@@ -1,0 +1,28 @@
+{
+  "name": "dius-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint:fix": "standard --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "standard": "^11.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "browser": false,
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "globals": [
+      "expect",
+      "test"
+    ]
+  }
+}
