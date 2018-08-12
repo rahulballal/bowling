@@ -1,5 +1,4 @@
 const TOTAL_FRAMES = 10
-const FINAL_FRAME = 9
 
 class Game {
   constructor () {
